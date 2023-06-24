@@ -9,7 +9,7 @@
 
 - name: App Pre-requisites
   ansible.builtin.import_tasks:
-    file: app_presetup.yml
+    file: app_presetup
 
 
 - name: Load NodeJS Dependencies
@@ -20,7 +20,7 @@
 
 - name: SystemD Setup
   ansible.builtin.import_tasks:
-    file: systemd_setup.yml
+    file: systemd_setup
 
 
 
