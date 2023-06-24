@@ -1,4 +1,4 @@
-- name: configuring Nodejs repos
+- name: configuring Nodejs Repos
   ansible.builtin.shell: curl -sL https://rpm.nodesource.com/setup_lts.x | bash
 
 - name: Install Nodejs
