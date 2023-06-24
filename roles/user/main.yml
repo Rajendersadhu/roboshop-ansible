@@ -3,11 +3,13 @@
 - name: Load NodeJS
   ansible.builtin.import_role:
     name: common
-    tasks_from: nodejs
+    tasks_from: nodejs.yml
 
 - name: Load Schema Setup
   ansible.builtin.import_role:
     name: common
-    tasks_from: mongo_schema_setup
+    tasks_from: mongo_schema_setup.yml
+
+
 
 
