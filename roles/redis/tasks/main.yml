@@ -24,7 +24,7 @@
   ansible.builtin.replace:
     path: /etc/redis/redis.conf
     regexp: '127.0.0.1'
-    replace: '0.0.0.0
+    replace: '0.0.0.0'
 
 - name: Start & Enable Redis Service
   ansible.builtin.systemd:
